@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.saffron.finance/llms.txt
+---
+# Saffron
+
+## Docs
+
+- [Saffron DAO](https://docs.saffron.finance/dao-docs/index.md): Information on the Saffron DAO.
+- [Saffron History](https://docs.saffron.finance/history/history.md): Timeline of Saffron Products.
+- [Community](https://docs.saffron.finance/introduction/community.md): Saffron Community Links.
+- [Saffron Intro](https://docs.saffron.finance/introduction/index.md)
+- [Saffron Academy](https://docs.saffron.finance/saffron-academy.md): Coming Soon
+- [Saffron V2](https://docs.saffron.finance/saffron-v2.md)
+- [External Integrations](https://docs.saffron.finance/saffron-vaults/external-integrations.md): Third-party dependencies for token handling, liquidity management, and vault execution.
+- [Fee Mechanism](https://docs.saffron.finance/saffron-vaults/fee-mechanism.md): How protocol fees are calculated, minted, and distributed using variableBearerToken during vault settlement.
+- [Important System Parameters](https://docs.saffron.finance/saffron-vaults/important-system-parameters.md): Configuration parameters for factories, vaults, and adapters.
+- [Non-Trivial Financial Logic](https://docs.saffron.finance/saffron-vaults/non-trivial-financial-logic.md): Formulas and validation rules for payouts, fees, and liquidity.
+- [Overview](https://docs.saffron.finance/saffron-vaults/overview.md): How Saffron Vaults Work
+- [Smart Contracts](https://docs.saffron.finance/saffron-vaults/smart-contracts.md): Technical overview of the Saffron Vaults smart contract system
+- [Trust Model](https://docs.saffron.finance/saffron-vaults/trust-model.md): Users control their funds trustlessly; only privileged roles can configure or deploy vaults.
+- [Vault Lifecycle](https://docs.saffron.finance/saffron-vaults/vault-lifecycle.md): How vaults are created, funded, and settled on-chain.
+- [Saffron security](https://docs.saffron.finance/security/audits.md): Smart contract audits and security protocols
+- [Saffron Whitepapers](https://docs.saffron.finance/whitepaper/saffron-fixed-income-vault.md): Whitepapers written by Saffron team
+
+## OpenAPI Specs
+
+- [openapi](https://docs.saffron.finance/api-reference/openapi.json)
+
+## Optional
+
+- [X](https://x.com/saffron)
+- [Telegram](https://t.me/saffronfinance)
+- [GitHub](https://github.com/saffron-finance)
+- [Medium](https://medium.com/saffron-finance)

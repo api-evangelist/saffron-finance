@@ -1,8 +1,15 @@
 aid: saffron-finance
 name: Saffron Finance
-description: 'Saffron Finance is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Saffron Finance is a decentralized peer-to-peer interest-rate risk adjustment
+  protocol built on Ethereum. Underlying DeFi yield is transformed by a smart-contract
+  vault system according to each user''s indicated risk preference, splitting deposits
+  into senior (fixed-income, risk-averse) and junior (variable, risk-seeking) tranches
+  across Uniswap V3 fixed-income vaults. The protocol is governed by the Saffron DAO
+  and its SFI token, and was surfaced in the API Evangelist network as a portfolio
+  company of Multicoin Capital in the crypto-web3 sector. Saffron is an on-chain
+  protocol rather than a hosted web-API provider: its developer surface is Solidity
+  smart contracts, published documentation, audits, and whitepapers rather than a
+  REST/HTTP API.'
 url: https://raw.githubusercontent.com/api-evangelist/saffron-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,31 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://saffron.finance/og.png
 tags:
 - Company
 - Crypto Web3
+- DeFi
+- Yield
+- Fixed Income
+- Vaults
+- Ethereum
+- Smart Contracts
+- Governance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,28 @@ maintainers:
 common:
 - type: Website
   url: https://saffron.finance
+- type: Documentation
+  url: https://docs.saffron.finance
+- type: GettingStarted
+  url: https://docs.saffron.finance/introduction/index.md
+- type: GitHubOrganization
+  url: https://github.com/saffron-finance
+- type: Blog
+  url: https://medium.com/saffron-finance
+- type: Whitepaper
+  url: https://docs.saffron.finance/whitepaper/saffron-fixed-income-vault.md
+- type: Support
+  url: https://docs.saffron.finance/introduction/community.md
+- type: Twitter
+  url: https://x.com/saffron
+- type: Telegram
+  url: https://t.me/saffronfinance
+- type: LLMsTxt
+  url: llms/saffron-finance-llms.txt
+- type: DomainSecurity
+  url: security/saffron-finance-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
